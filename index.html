@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="description"
+            content="Opis zawartości strony dla wyszukiwarek"
+        />
+        <meta name="keywords" content="słowa, kluczowe, opisujące, zawartość" />
+        <meta name="author" content="Jan Programista" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Julia</title>
+        <link rel="icon" href="mushroom.ico" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+        <link href="stylish.css" rel="stylesheet" />
+        <link href="normalize.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="hero">
+            <div class="hero-content">
+                <nav class="navi">
+                    <!--rozciągnąć: logo po lewej, linki po prawej; ma trzymać się góry strony-->
+                    <a class="logo" href="#welcome"
+                        ><img width="30" src="mushroom.ico" alt="logo"
+                    /></a>
+                    <button class="menu-btn">
+                        <svg
+                            width="30px"
+                            viewBox="0 0 24 24"
+                            stroke="#000000"
+                            stroke-width="1"
+                            stroke-linecap="square"
+                            stroke-linejoin="miter"
+                            fill="none"
+                        >
+                            <path d="M6 7L18 7M6 12L18 12M6 17L18 17" />
+                        </svg>
+                    </button>
+
+                    <ul class="menu">
+                        <button class="close-btn">X</button>
+                        <li class="menu-item">
+                            <a href="#abt" class="menu-link">About Me</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#hob" class="menu-link">Hobbies</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#proj" class="menu-link">Projects</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#cont" class="menu-link">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <header id="welcome">
+                    <!--rozmieścić żeby wyglądało ok, zedytować przycisk Contact me-->
+                    <h1 class="welcome-heading">
+                        Welcome, it's <b>Julia</b> here!
+                    </h1>
+
+                    <p class="welcome-text">
+                        I am a final grade student in Żeromski High School in
+                        Warsaw, extending math, physics and IT
+                    </p>
+                    <a href="#cont" class="welcome-link">☆ Contact me ☆</a>
+                </header>
+            </div>
+        </div>
+        <section class="About" id="abt">
+            <div class="abt-img-decor">
+                <img class="abt-image" src="photoel.jpg" alt="my photo" />
+            </div>
+            <div>
+                <h1 class="abt-heading"><b>About me</b></h1>
+                <h3 class="abt-name">I'm Julia</h3>
+                <p class="abt-text">
+                    A hard-working high-school student expecting to graduate in
+                    May 2023.
+                </p>
+
+                <p class="abt-text">
+                    Having high grades and excellent communication, time
+                    management and computer skills.
+                </p>
+                <p class="abt-text">
+                    Attending extended Math, Physics and IT classes. I am
+                    seeking to continue acquiring knowledge on Econometrics at
+                    University.
+                </p>
+                <p class="abt-text">
+                    I speek Polish, English and partially French.
+                </p>
+                <p class="abt-text">
+                    I have a huge passion for IT and Economics.
+                </p>
+                <p class="abt-text">
+                    Since February 2022, I'm working as an office assistant for
+                    A&W Biuro Konsultingowe in Warsaw.
+                </p>
+                <p class="abt-text">
+                    In my free time I like to crochet, dance and watch things on
+                    Netflix.
+                </p>
+            </div>
+        </section>
+        <section class="Hobbies" id="hob">
+            <!--done-->
+            <div class="hob-box">
+                <div class="hob-icon">
+                    <svg
+                        width="60"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        class="w-6 h-6"
+                    >
+                        <path
+                            d="M21 6.375c0 2.692-4.03 4.875-9 4.875S3 9.067 3 6.375 7.03 1.5 12 1.5s9 2.183 9 4.875z"
+                        />
+                        <path
+                            d="M12 12.75c2.685 0 5.19-.586 7.078-1.609a8.283 8.283 0 001.897-1.384c.016.121.025.244.025.368C21 12.817 16.97 15 12 15s-9-2.183-9-4.875c0-.124.009-.247.025-.368a8.285 8.285 0 001.897 1.384C6.809 12.164 9.315 12.75 12 12.75z"
+                        />
+                        <path
+                            d="M12 16.5c2.685 0 5.19-.586 7.078-1.609a8.282 8.282 0 001.897-1.384c.016.121.025.244.025.368 0 2.692-4.03 4.875-9 4.875s-9-2.183-9-4.875c0-.124.009-.247.025-.368a8.284 8.284 0 001.897 1.384C6.809 15.914 9.315 16.5 12 16.5z"
+                        />
+                        <path
+                            d="M12 20.25c2.685 0 5.19-.586 7.078-1.609a8.282 8.282 0 001.897-1.384c.016.121.025.244.025.368 0 2.692-4.03 4.875-9 4.875s-9-2.183-9-4.875c0-.124.009-.247.025-.368a8.284 8.284 0 001.897 1.384C6.809 19.664 9.315 20.25 12 20.25z"
+                        />
+                    </svg>
+                </div>
+                <h3 class="hob-name">Economics</h3>
+                <p class="hob-text">
+                    I'm just at the start of my journey with economics. I took
+                    part in Warsaw University's course: "Nowoczesna Ekonomia w
+                    Praktyce" (eng: Modern Economy in practise) and got a
+                    certificate for finishing it.
+                </p>
+            </div>
+            <div class="hob-box">
+                <div class="hob-icon">
+                    <svg
+                        width="60"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        class="w-6 h-6"
+                    >
+                        <path
+                            fill-rule="evenodd"
+                            d="M2.25 6a3 3 0 013-3h13.5a3 3 0 013 3v12a3 3 0 01-3 3H5.25a3 3 0 01-3-3V6zm3.97.97a.75.75 0 011.06 0l2.25 2.25a.75.75 0 010 1.06l-2.25 2.25a.75.75 0 01-1.06-1.06l1.72-1.72-1.72-1.72a.75.75 0 010-1.06zm4.28 4.28a.75.75 0 000 1.5h3a.75.75 0 000-1.5h-3z"
+                            clip-rule="evenodd"
+                        />
+                    </svg>
+                </div>
+
+                <h3 class="hob-name">IT</h3>
+                <p class="hob-text">
+                    I've been into IT since I was in primary school. I know
+                    Python and Javascript, but I am more confident with my HTML,
+                    CSS, Access and SQL skills. I'm also interested in newest
+                    technologies.
+                </p>
+            </div>
+            <div class="hob-box">
+                <div class="hob-icon">
+                    <svg
+                        width="60"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="w-6 h-6"
+                    >
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M9 9l10.5-3m0 6.553v3.75a2.25 2.25 0 01-1.632 2.163l-1.32.377a1.803 1.803 0 11-.99-3.467l2.31-.66a2.25 2.25 0 001.632-2.163zm0 0V2.25L9 5.25v10.303m0 0v3.75a2.25 2.25 0 01-1.632 2.163l-1.32.377a1.803 1.803 0 01-.99-3.467l2.31-.66A2.25 2.25 0 009 15.553z"
+                        />
+                    </svg>
+                </div>
+
+                <h3 class="hob-name">Dancing</h3>
+                <p class="hob-text">
+                    I've been dancing ever since I remember. I tried different
+                    styles like: jazz, theatrical dancing, hip-hop and modern,
+                    but I liked jazz-ballet the most. I took part in numerous
+                    contests and danced in a theatre too.
+                </p>
+            </div>
+            <div class="hob-box">
+                <div class="hob-icon">
+                    <svg
+                        width="60"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        class="w-6 h-6"
+                    >
+                        <path
+                            fill-rule="evenodd"
+                            d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zM8.547 4.505a8.25 8.25 0 1011.672 8.214l-.46-.46a2.252 2.252 0 01-.422-.586l-1.08-2.16a.414.414 0 00-.663-.107.827.827 0 01-.812.21l-1.273-.363a.89.89 0 00-.738 1.595l.587.39c.59.395.674 1.23.172 1.732l-.2.2c-.211.212-.33.498-.33.796v.41c0 .409-.11.809-.32 1.158l-1.315 2.191a2.11 2.11 0 01-1.81 1.025 1.055 1.055 0 01-1.055-1.055v-1.172c0-.92-.56-1.747-1.414-2.089l-.654-.261a2.25 2.25 0 01-1.384-2.46l.007-.042a2.25 2.25 0 01.29-.787l.09-.15a2.25 2.25 0 012.37-1.048l1.178.236a1.125 1.125 0 001.302-.795l.208-.73a1.125 1.125 0 00-.578-1.315l-.665-.332-.091.091a2.25 2.25 0 01-1.591.659h-.18c-.249 0-.487.1-.662.274a.931.931 0 01-1.458-1.137l1.279-2.132z"
+                            clip-rule="evenodd"
+                        />
+                    </svg>
+                </div>
+
+                <h3 class="hob-name">Plants</h3>
+                <p class="hob-text">
+                    I think there's not much to say - I love cluttering my room
+                    with plants. Buying them is like a remedy for my bad moods.
+                    Out of this passion I proceeded a project (PlantEd) where my
+                    group published plant-care tips every week for several
+                    months.
+                </p>
+            </div>
+            <div class="hob-box">
+                <div class="hob-icon">
+                    <?xml version="1.0" encoding="UTF-8"?><svg
+                        width="60px"
+                        height="60px"
+                        stroke-width="1.5"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        color="#000000"
+                    >
+                        <path
+                            d="M15 11H5a2 2 0 01-2-2V5a2 2 0 012-2h14a2 2 0 012 2v16M18 21v-2M15 3v18M15 7H3"
+                            stroke="#000000"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                        ></path>
+                    </svg>
+                </div>
+
+                <h3 class="hob-name">Crocheting</h3>
+                <p class="hob-text">
+                    I crochet in my free time to let off the steam, when I get
+                    stressed. I espessially enjoy making arm-warmers and tops
+                    since they are useful and very rewarding. I also made
+                    plushies and warmers for my friends.
+                </p>
+            </div>
+        </section>
+        <section class="Projects" id="proj">
+            <!--done-->
+            <h1 class="proj-heading">Projects</h1>
+            <div class="proj-list">
+                <figure class="proj-item">
+                    <h2 class="proj-name">PlantEd</h2>
+                    <img
+                        class="proj-img"
+                        src="planted.png"
+                        alt="Project PlantEd"
+                    />
+                    <figcaption class="proj-desc">
+                        This project's main goal was to popularize indoor
+                        plants. We focused on sharing tips for plant-care and
+                        were active from December 2021 to April 2022
+                    </figcaption>
+                </figure>
+                <figure class="proj-item">
+                    <h2 class="proj-name">Editor at The Public Paper</h2>
+                    <img
+                        class="proj-img"
+                        src="tpp.png"
+                        alt="The Public Paper"
+                    />
+                    <figcaption class="proj-desc">
+                        The high-school newspaper, which produced one issue in
+                        May 2022
+                    </figcaption>
+                </figure>
+                <figure class="proj-item">
+                    <h2 class="proj-name">MovieToGo</h2>
+                    <img
+                        class="proj-img"
+                        src="movietogo.jpg"
+                        alt="Project PlantEd"
+                    />
+                    <figcaption class="proj-desc">
+                        This project is still in progress :)
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+        <section class="Quote">
+            <!--done-->
+            <blockquote>
+                <p>
+                    It's alright to not have a dream. If you have moments where
+                    you feel happiness for a while
+                </p>
+            </blockquote>
+            <cite class="quot-author">BTS in <i>Paradise</i></cite>
+        </section>
+        <section class="Contact" id="cont">
+            <!--done-->
+            <h1 class="cont-heading">☆ Contact me ☆</h1>
+            <form class="cont-form" action="" method="get">
+                <div class="form-item">
+                    <label class="label" for="name">Name: </label>
+                    <input
+                        class="input"
+                        type="text"
+                        name="name"
+                        placeholder="name"
+                        required
+                    />
+                </div>
+                <div class="form-item">
+                    <label class="label" for="email">Email: </label>
+                    <input
+                        class="input"
+                        type="email"
+                        name="email"
+                        placeholder="email@gmail.com"
+                        required
+                    />
+                </div>
+                <div class="form-item">
+                    <label class="label" for="message"
+                        >Place for your message:
+                    </label>
+                    <textarea class="text-area" width="300"></textarea>
+                </div>
+                <div class="form-item">
+                    <button class="form-button" type="submit">
+                        Send
+                        <div class="dot"></div>
+                    </button>
+                </div>
+            </form>
+        </section>
+        <footer class="stay">
+            <!--done-->
+            <div>
+                <a href="https://www.instagram.com/wasie.jw/"
+                    ><?xml version="1.0" encoding="UTF-8"?><svg
+                        width="50px"
+                        height="50px"
+                        stroke-width="1.5"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        color="#000000"
+                    >
+                        <path
+                            d="M12 16a4 4 0 100-8 4 4 0 000 8z"
+                            stroke="#000000"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                        ></path>
+                        <path
+                            d="M3 16V8a5 5 0 015-5h8a5 5 0 015 5v8a5 5 0 01-5 5H8a5 5 0 01-5-5z"
+                            stroke="#000000"
+                            stroke-width="1.5"
+                        ></path>
+                        <path
+                            d="M17.5 6.51l.01-.011"
+                            stroke="#000000"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                        ></path>
+                    </svg>
+                </a>
+                <a
+                    href="https://www.facebook.com/profile.php?viewas=100000686899395&id=100005302607168"
+                >
+                    <?xml version="1.0" encoding="UTF-8"?><svg
+                        width="50px"
+                        height="50px"
+                        stroke-width="1.5"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        color="#000000"
+                    >
+                        <path
+                            d="M21 8v8a5 5 0 01-5 5H8a5 5 0 01-5-5V8a5 5 0 015-5h8a5 5 0 015 5z"
+                            stroke="#000000"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                        ></path>
+                        <path
+                            d="M11 21v-9c0-2.188.5-4 4-4M9 13h6"
+                            stroke="#000000"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                        ></path>
+                    </svg>
+                </a>
+                <a
+                    href="https://www.linkedin.com/in/julia-wasielewska-789651255/"
+                >
+                    <?xml version="1.0" encoding="UTF-8"?><svg
+                        width="50px"
+                        height="50px"
+                        stroke-width="1.5"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        color="#000000"
+                    >
+                        <path
+                            d="M21 8v8a5 5 0 01-5 5H8a5 5 0 01-5-5V8a5 5 0 015-5h8a5 5 0 015 5zM7 17v-7"
+                            stroke="#000000"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                        ></path>
+                        <path
+                            d="M11 17v-3.25M11 10v3.75m0 0c0-3.75 6-3.75 6 0V17M7 7.01l.01-.011"
+                            stroke="#000000"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                        ></path>
+                    </svg>
+                </a>
+            </div>
+            <!-- w css: display: flex; -->
+        </footer>
+        <script src="scrippy.js"></script>
+    </body>
+</html>
